@@ -34,9 +34,10 @@ p {
 
 }
 
-.row{
+.row {
 	padding:10px;
 }
+
 textarea{
 	resize:none;
 }
@@ -82,3 +83,32 @@ footer {
     text-align: center;
     overflow: hidden;
 }
+
+.navbar-brand img.brand {
+	height: 35px;
+}
+
+.navbar-collapse .navbar-nav {
+	margin: auto;
+	text-align: center;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+	justify-content: center;
+	margin: 1em;
+}
+
+.navbar-collapse .navbar-nav .nav-item a.nav-link:hover {
+	border: 1px solid #00d1fd;
+	border-radius: 5px;
+}
+
+
+@media (max-width: 767.98px) {
+	.navbar-collapse {
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
