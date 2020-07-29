@@ -68,16 +68,17 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
   font-size:xx-small;
+  text-align: center;
   line-height: 60px; 
-  background-color: rgba(0,0,0,0.2);
   font-family:'Exo';
   text-transform: uppercase;
 }
+
 
 .container {
     text-align: center;
