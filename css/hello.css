@@ -99,10 +99,24 @@ footer {
 	margin: 1em;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #666;
+}
+
 .navbar-collapse .navbar-nav .nav-item a.nav-link:hover {
 	border: 1px solid #00d1fd;
 	border-radius: 5px;
 }
+
+.navbar-collapse .navbar-nav .nav-item a.nav-link {
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+button.navbar-toggler:focus {
+	  outline: none;
+}
+
 
 
 @media (max-width: 767.98px) {
