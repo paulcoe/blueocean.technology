@@ -20,8 +20,9 @@ video {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 200px;
     margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,24 +114,32 @@ button.navbar-toggler:focus {
 
 
 @media (max-width: 767.98px) {
+
 	.navbar-collapse {
 		background-color: #fff;
 		display: flex;
 		flex-direction: column;
 	}
+
 	.navbar-collapse .navbar-nav {
 		margin: auto;
 		text-align: center;
 	}
+	
 	.navbar-collapse .navbar-nav .nav-item {
-	justify-content: center;
-	margin: 1em;
+		justify-content: center;
+		margin: 1em;
 	}
 
 	.navbar-collapse .navbar-nav .nav-item a.nav-link {
 		color: #333;
 	}
-}
+
+	.logo {
+	    max-width: 125px;
+	    margin-top: 40px;
+	    margin-bottom: 40px;
+	}
 
 }
 
