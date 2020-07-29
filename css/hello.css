@@ -89,19 +89,12 @@ footer {
 	height: 35px;
 }
 
-.navbar-collapse .navbar-nav {
-	margin: auto;
-	text-align: center;
-}
 
-.navbar-collapse .navbar-nav .nav-item {
-	justify-content: center;
-	margin: 1em;
-}
 
 .navbar-dark .navbar-nav .nav-link.active {
 	color: #666;
 }
+
 
 .navbar-collapse .navbar-nav .nav-item a.nav-link:hover {
 	border: 1px solid #00d1fd;
@@ -111,6 +104,7 @@ footer {
 .navbar-collapse .navbar-nav .nav-item a.nav-link {
 	border: 1px solid transparent;
 	border-radius: 5px;
+	color: #fff;
 }
 
 button.navbar-toggler:focus {
@@ -125,5 +119,19 @@ button.navbar-toggler:focus {
 		display: flex;
 		flex-direction: column;
 	}
+	.navbar-collapse .navbar-nav {
+		margin: auto;
+		text-align: center;
+	}
+	.navbar-collapse .navbar-nav .nav-item {
+	justify-content: center;
+	margin: 1em;
+	}
+
+	.navbar-collapse .navbar-nav .nav-item a.nav-link {
+		color: #333;
+	}
+}
+
 }
 
