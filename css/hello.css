@@ -20,7 +20,7 @@ video {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 200px;
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: auto;
@@ -71,14 +71,22 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 35px;
   font-size:xx-small;
   text-align: center;
-  line-height: 60px; 
+  line-height: 1.0; 
   font-family:'Exo';
   text-transform: uppercase;
 }
 
+footer a:link, footer a:visited {
+	color:#333;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color:#00d1fd;
+}
 
 .container {
     text-align: center;
@@ -86,7 +94,7 @@ footer {
 }
 
 .navbar-brand img.brand {
-	height: 35px;
+	height: 50px;
 }
 
 
